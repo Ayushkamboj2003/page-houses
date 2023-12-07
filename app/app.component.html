@@ -1,0 +1,7 @@
+<div *ngFor="let items of Houselist">
+  <app-house [toshow]="items"></app-house>
+  <div> <img src="{{items.image}}"/> </div>
+    <h2>{{items.price}}</h2>
+<p>{{items.name}}</p>
+</div>
+ 
