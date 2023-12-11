@@ -11,12 +11,15 @@ import { HouseComponent } from './house/house.component';
 })
 export class AppComponent {
   title = 'House';
-Houselist = [{image: '../assets/502579675.jpg', price: '€90.000,00',name: 'villa via pietro rovelli 24, BG'},
-{image: '../assets/552624872.jpg', price: '€90.000,00',name: 'villa via pietro rovelli 24, BG'},
-{image: '../assets/552624872.jpg', price: '€90.000,00',name: 'villa via pietro rovelli 24, BG'},
-{image: '../assets/552624872.jpg', price: '€90.000,00',name: 'villa via pietro rovelli 24, BG'},
-{image: '../assets/552624872.jpg', price: '€90.000,00',name: 'villa via pietro rovelli 24, BG'},]
+Houselist = [{image: '../assets/502579675.jpg', price: '€90.000,00',location: 'villa via pietro rovelli 24, BG'},
+{image: '../assets/552624872.jpg', price: '€90.000,00',location: 'villa via pietro rovelli 24, BG'},
+]
+isvalue:boolean = false;
 
+showprova()
+{
+  this.isvalue= true
+}
 
 
 

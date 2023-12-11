@@ -10,4 +10,6 @@ import { Component, Input } from '@angular/core';
 export class HouseComponent {
   @Input()
   toshow: any ;
+  Houselist: any; 
+
 }
