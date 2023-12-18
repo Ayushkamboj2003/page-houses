@@ -1,0 +1,19 @@
+<div class="contenitore-generale">
+  <img src="../../assets/scrittore.jpg" class="image" />
+  <div class="info">
+    <button (click)="details()" class="button">Mostra di più</button>
+    <h1>{{ toshow.name }}</h1>
+    <h3>{{ toshow.language }}</h3>
+    <h3>{{ toshow.id }}</h3>
+    <h3>{{ toshow.bio }}</h3>
+    <h4>{{ toshow.details }}</h4>
+  </div>
+
+  <div class="parent" *ngIf="tab">
+    <div class="div1"> <img src="../../assets/scrittore.jpg" class="images" /></div>
+    <div class="div2"> <img src="../../assets/scrittore.jpg" class="images" /></div>
+    <div class="div3"> <img src="../../assets/scrittore.jpg" class="images" /></div>
+    <div class="div4"> <img src="../../assets/scrittore.jpg" class="images" /></div>
+  </div>
+
+</div>
